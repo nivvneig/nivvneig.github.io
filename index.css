@@ -1,0 +1,105 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 1140px;
+    padding: 0 15;
+    margin: 0 auto;    
+}
+
+/* хедер */
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: rgb(89, 0, 255);
+    box-sizing: border-box;
+}
+
+.menu-item{
+   list-style: none;    
+}
+
+.menu-link{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* баннер */
+
+.banner-title, .banner-descriotion{
+    text-align: center;
+    color: aliceblue;
+}
+
+.banner-title{
+    font-size: 48px;
+}
+
+.banner-section{
+    background: url(img/banner-bg.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+/* cards */
+
+.cards-section{
+    padding: 50px 0px;
+}
+
+.cards-title, .cards-description{
+    color: rgb(71, 53, 238);
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+ 
+    background: white;
+    box-shadow: 0px 2px 7px 0px #312127;
+    text-align: center;
+}
+
+.card-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.card-button{
+    text-align: center;
+    background: rgb(88, 56, 88);
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: inline-block;
+    width: 25%;
+    margin: 0px 45px
+}
+
+/* footer */
+
+.footer{
+    background: url(img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyright{
+    color: aliceblue;
+}
